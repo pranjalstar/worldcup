@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
+}
+body
+{
+	background: #121113;
+	
+	
+	
+
+	
+	
+}
+section
+{
+	position: relative;
+	width: 100%;
+	height: 50vh;
+}
+.fireworks
+{
+	position: fixed;
+}
+section.content
+{
+	z-index: 1;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+section:nth-child(2).content
+{
+	padding-top: 100vh;
+}
+section.content h2
+{
+	-webkit-text-stroke: 1px rgb(160, 0, 0);
+	color: blue;
+	font-size: 8em;
+	line-height: 0.9em;
+}
+section.content h2 c
+{
+	color: #17da62;
+	-webkit-text-stroke: 0 #fff;
+}
+
+::-webkit-scrollbar
+{
+	width: 0;
+}
+.png {
+	width: 70%;
+	height: 300px;
+	height: auto;
+	position: absolute;
+	margin-top: 50%;
+	
+}
+.flag{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	
+}
+h4{
+	text-align: center;
+
+}
+.cup1{
+	margin-top: 850px;
+	margin-right: -350px;
+	width: 400px;
+}
+.cup2{
+	margin-top: 880px;
+	width: 380px;
+	margin-left: -390px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    section.content h2 {
+        font-size: 4em;
+    }
+
+    .png {
+        width: 100%;
+		margin-top: 200%; /* Further adjustment for mobile display */
+
+    }
+       
+    
+    .cup1,
+    .cup2 {
+        margin: 0;
+        width: 100%;
+    }
+}
